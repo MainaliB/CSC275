@@ -8,7 +8,7 @@
  * @author bibekmainali
  */
 import java.util.*;
-public class Account {
+public class Account implements Comparable <Account>{
     private Client AccountHolder;
     private Double Balance;
     private Date DateCreated;
