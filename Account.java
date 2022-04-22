@@ -50,7 +50,6 @@ public class Account implements Comparable <Account>{
         return Balance;
     }
     public Date getDateCreated(){
-        DateCreated = new Date();
         return DateCreated;
     }
     
