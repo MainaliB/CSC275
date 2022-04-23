@@ -7,7 +7,7 @@
  *
  * @author bibekmainali
  */
-public class Player {
+public class Player implements Comparable <Player> {
     private int Health;
     private int Intelligence;
     private int Dexterity;
