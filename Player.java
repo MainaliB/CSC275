@@ -97,6 +97,16 @@ public class Player implements Comparable <Player> {
         return Health + " " + Intelligence + " " + Dexterity + " " + Strength + " "+ Stamina;
     }
     
+    public int compareTo(){
+    
+    
+    }
+    
+    public boolean equals(GraduateStudent a){
+        
+    }
+    
+    
     
 }
 //we are not adding any more attributes or other functionality in subclass Archer and Barbarian
