@@ -46,8 +46,20 @@ public class Client implements Comparable <Client> {
         SocialSecurityNumber = number;
     }
     
+    
+    
+    
     public String toString(){
         return FirstName + " "+ LastName +" "+  SocialSecurityNumber;// fix this
+    }
+    
+    public int compareTo(){
+    
+    
+    }
+    
+    public boolean equals(GraduateStudent a){
+        
     }
     
 }
