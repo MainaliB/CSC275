@@ -57,5 +57,14 @@ public class Account implements Comparable <Account>{
         return AccountHolder + " " +Balance + " "+ DateCreated; //fix it
     }
     
+    public int compareTo(){
+    
+    
+    }
+    
+    public boolean equals(GraduateStudent a){
+        
+    }
+    
     
 }
