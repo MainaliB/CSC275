@@ -53,12 +53,23 @@ public class Client implements Comparable <Client> {
         return FirstName + " "+ LastName +" "+  SocialSecurityNumber;// fix this
     }
     
-    public int compareTo(){
+    public int compareTo(Client a){
+        if (getSocialSecurityNumber() > a.getSocialSecurityNumber())
+            return 1;
+        else if (getSocialSecurityNumber()< a.getSocialSecurityNumber())
+            return -1;
+        else 
+            return 0;
     
     
     }
     
-    public boolean equals(GraduateStudent a){
+    public boolean equals(Client a){
+        if (getSocialSecurityNumber() == a.getSocialSecurityNumber())
+            return true;
+        else
+            return false;
+                   
         
     }
     
