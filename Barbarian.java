@@ -105,4 +105,23 @@ public class Barbarian implements Comparable <Barbarian> {
         return Health +" "+  Intelligence +" "+  Dexterity +" "+  Strength+" "+  Stamina; 
     }
     
+    public int compareTo(Barbarian a){
+        if (getStrength() > a.getStrength())
+            return 1;
+        else if (getStrength()< a.getStrength())
+            return -1;
+        else 
+            return 0;
+    
+    
+    }
+    
+    public boolean equals(Barbarian a){
+        if(this.getHealth()== a.getHealth())
+            return true;
+        else 
+            return false;
+        
+    }
+    
 }
