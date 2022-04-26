@@ -57,12 +57,23 @@ public class Account implements Comparable <Account>{
         return AccountHolder + " " +Balance + " "+ DateCreated; //fix it
     }
     
-    public int compareTo(){
+    public int compareTo(Account a){
+        if (this.getAccountHolder().getSocialSecurityNumber() > a.getAccountHolder().getSocialSecurityNumber())
+            return 1;
+        else if (this.getAccountHolder().getSocialSecurityNumber() < a.getAccountHolder().getSocialSecurityNumber())
+            return -1;
+        else 
+            return 0;
     
     
     }
     
-    public boolean equals(GraduateStudent a){
+    public boolean equals(Account a){
+        if (this.getAccountHolder().getSocialSecurityNumber() == a.getAccountHolder().getSocialSecurityNumber())
+            return true;
+        else
+            return false;
+                   
         
     }
     
