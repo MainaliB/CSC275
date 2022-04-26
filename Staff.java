@@ -87,6 +87,13 @@ public class Staff implements Comparable <Staff>{
     
     public boolean equals(Staff a){
         
+        if (this.Title == a.getTitle())
+            return true;
+        else
+                return false;
+        
+    }
+        
     }
     
     
