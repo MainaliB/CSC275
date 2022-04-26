@@ -92,6 +92,10 @@ public class Student implements Comparable <Student>{
     }
     
     public boolean equals(Student a){
+        if (getGPA() == a.getGPA())
+            return true;
+        else
+            return false;
         
     }
     
