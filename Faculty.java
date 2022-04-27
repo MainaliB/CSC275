@@ -75,6 +75,10 @@ public class Faculty implements Comparable <Faculty>{
     }
     
     public boolean equals(Faculty a){
+        if (this.Department == a.getDepartment())
+            return true;
+        else
+            return false;
         
     }
     
