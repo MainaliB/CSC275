@@ -8,6 +8,8 @@ public class SplitArrays {
     
     
     public void splitArrays(int[] largeArray, int[] arrayOne, int[] arrayTwo){
+        split(arrayOne, 0, largeArray, 0);
+        split(arrayTwo, 0, largeArray, 1);
         
         
     }
