@@ -9,9 +9,7 @@ public class SplitArrays {
     
     public void splitArrays(int[] largeArray, int[] arrayOne, int[] arrayTwo){
         split(arrayOne, 0, largeArray, 0);
-        split(arrayTwo, 0, largeArray, 1);
-        
-        
+        split(arrayTwo, 0, largeArray, 1);  
     }
     
     public void split(int[] arrayOne, int startArrayOne, int [] largeArray, int startLargeArray ){
