@@ -9,6 +9,11 @@ T cannot be 0.
 public class SumComplements {
     
     public boolean checkSum(int[] L, int T){
+        int n = L.length;
+        
+        if (T ==0){
+        
+        }
     
     
     }
