@@ -9,13 +9,23 @@ T cannot be 0.
 public class SumComplements {
     
     public boolean checkSum(int[] L, int T){
-        int n = L.length;
+       int start = 0;
+       int numToFind = T - L[start];
+       for(int i = start + 1; i < L.length; i++){
+           if (L[i]== numToFind)
+                   return true;
+       }
+       start ++;
+       boolean result = checkSum(L, T);
+       
+       
+       
+       return result;
+       }
         
-        if (T ==0){
-        
-        }
+       
     
     
     }
     
-}
+
