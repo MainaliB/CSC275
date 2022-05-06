@@ -7,7 +7,8 @@
  *
  * @author bibekmainali
  */
-import javafx.animation.Animation;
-public class Warlock extends Player{
+public class Monkey extends Pet {
+    private String gender;
+    private double height;
     
 }
