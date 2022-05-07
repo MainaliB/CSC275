@@ -7,7 +7,7 @@
  *
  * @author bibekmainali
  */
-public class Circle {
+public class Circle extends GeometricObject {
     private Point centerPoint;
     private double radius;
     
