@@ -13,11 +13,12 @@ import javafx.stage.Stage;
 public class MyJavaFx {
     
     public void start(Stage primaryStage){
+        //create a scene and place a button in the scene
         Button btOK = new Button("OK");
         Scene scene = new Scene(btOK, 200,250);
         primaryStage.setTitle("My JavaFx");
         primaryStage.setScene(scene);
-        primaryStage.show();
+        primaryStage.show(); // dsiplay the stage
     }
     
     public static void main(String [] args){
