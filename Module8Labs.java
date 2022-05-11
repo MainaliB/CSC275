@@ -1,15 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-
-
-
-/**
- *
- * @author bibekmainali
- */
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Module8Labs {
@@ -94,6 +83,32 @@ public class Module8Labs {
         }
     return head;
         
+    }
+    
+     //problem3
+    public Labs.Node<Integer> removeInts(Labs.Node<Integer> linkedList){
+        Labs.Node<Integer> temp = linkedList;
+        Labs.Node<Integer> previous = null;
+        while(temp!= null){
+            if (temp.getItem() %2 ==0){
+                if(previous==null){
+                    linkedList = linkedList.getNext();
+                    temp = linkedList;
+                    continue;
+                }
+                else{
+                    previous.setNext(temp.getNext());
+                }
+            }
+            temp = temp.getNext();
+        
+        }
+        Labs.Node<Integer> current = linkedList;
+        while(current != null){
+            System.out.print(current.getItem());
+            temp = temp.getNext();
+        }
+        return linkedList;
     }
    
     
