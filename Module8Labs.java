@@ -86,9 +86,9 @@ public class Module8Labs {
     }
     
      //problem3
-    public Labs.Node<Integer> removeInts(Labs.Node<Integer> linkedList){
-        Labs.Node<Integer> temp = linkedList;
-        Labs.Node<Integer> previous = null;
+    public Node<Integer> removeInts(Node<Integer> linkedList){
+        Node<Integer> temp = linkedList;
+        Node<Integer> previous = null;
         while(temp!= null){
             if (temp.getItem() %2 ==0){
                 if(previous==null){
@@ -103,7 +103,7 @@ public class Module8Labs {
             temp = temp.getNext();
         
         }
-        Labs.Node<Integer> current = linkedList;
+       Node<Integer> current = linkedList;
         while(current != null){
             System.out.print(current.getItem());
             temp = temp.getNext();
