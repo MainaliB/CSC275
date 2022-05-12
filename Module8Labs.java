@@ -176,6 +176,8 @@ public class Module8Labs {
     }
     
     
+    
+    
     //problem6
     public Node<String> sortStrings(Node<String> linkedList) {
         if (linkedList != null) {
@@ -204,6 +206,8 @@ public class Module8Labs {
         
     }
     
+    
+    
     //problem7
     public int countNumbersWith7(Node<Integer> linkedList) {
         int count = 0;
@@ -218,6 +222,8 @@ public class Module8Labs {
                 return count;
         
     }
+    
+    
     
     //problem8
     public Node<Integer> findTheString(Node<String> linkedList, Node<String> stringsToFind) {
@@ -252,6 +258,8 @@ public class Module8Labs {
         
     }
     
+    
+    
     //problem9
     public Node<String> replaceSpaces(Node<String> linkedList) {
         Node<String> temp = linkedList;
@@ -271,6 +279,8 @@ public class Module8Labs {
                 return temp;
         
     }
+    
+    
     
     
     //problem10
