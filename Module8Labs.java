@@ -50,6 +50,8 @@ public class Module8Labs {
         return head;
     
     }
+   
+    
     
     
     //problem2
@@ -90,6 +92,8 @@ public class Module8Labs {
         
     }
     
+    
+    
     //problem3
     public Node<Integer> removeInts(Node<Integer> linkedList){
         Node<Integer> temp = linkedList;
@@ -116,6 +120,8 @@ public class Module8Labs {
         return linkedList;
     }
     
+    
+    
     //problem4
     public Node<String>removeStrings(Node<String> linkedList){
         Node<String> prev = linkedList;
@@ -137,6 +143,8 @@ public class Module8Labs {
                 return linkedList;
         
     }
+    
+    
     
     //problem5
     public Node<Integer> sortIntegers(Node<Integer> linkedList) {
