@@ -17,6 +17,8 @@ public class Archer implements Comparable <Archer>{
     
     public Archer(){
     
+        
+        
     }
     
     public Archer (int health, int intelligence, int dexterity, int strength, int stamina){
