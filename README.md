@@ -2,7 +2,7 @@
 
 This repository consists of all the work I did for the Java Programming class.
 
-Topics that I learn inlcude:
+Topics that I learned :
   - Objects and Classes
   - Object Oriented Thinking
   - Inheritance and Polymorphism
